@@ -1,0 +1,36 @@
+body {
+ font-family: sans-serif;
+ background-color: f4f4f4;
+ max-width: 800px;
+ margin: 0 auto ;
+ padding: 10px;
+}
+
+hearder {
+    background-color: #16213e;
+    color: white;
+    padding: 20px;
+}
+
+.card {
+background: white;
+border-radius: 8px;
+padding: 12px;
+margin: 12px 0;
+}
+
+.botao, button {
+display: inline-block;
+padding: 10px 16px;
+margin: 5px 0;
+border: 1px solid #16213e;
+border-radius: 8px;
+background: white;
+color: #16213e;
+text-decoration: none;
+font-size: 14px;
+}
+button:disabled {
+opacity: 0.4;
+}
+
